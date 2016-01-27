@@ -27,8 +27,9 @@
         padding-top: 5px;
         float:left;
         border-right: 1px solid #990000;
-        padding-right: 10px;
+        padding-right: 15px;
         padding-top: 10px;
+        padding-bottom: 7px;
 
     }
 
@@ -39,20 +40,50 @@
 
     #signin {
         font-weight: bold;
-        font-size: 0.8em;
+        padding: 0px 80px 0px 5px;
+        font-size: 0.9em;
         float: left;
-        padding: 10px 100px 10px 10px;
-        border-right: 20px;
-        padding-top: 10px;
         border-right: 1px solid #990000;
-
     }
+
     #signin img {
         position: relative;
-        top: 5px;
+        top: 3px;
+    } 
+
+    .topbox {
+        font-weight: bold;
+        font-size:0.9em;
+        float: left;
+        padding: 0px 20px 4px 20px;
+        border-right: 1px solid #990000;
     }
 
-    .topbox
+    #searchbar {
+        font-size: 0.9em;
+        float: left;
+
+    }
+
+    #topmenu {
+        float: left;
+    }
+
+    #topmenu ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    #topmenu li {
+        float: left;
+        list-style: none;
+        font-weight: bold;
+        font-size: 0.9em;
+        height: 100%;
+        padding:15px 20px 18px 20px;
+
+        border-right: 1px solid #990000;  
+    }
 
     </style>    
 </head>
@@ -70,10 +101,23 @@
             <div id="logodiv"> <img src="images/bbclogo.png"/>
             </div>
 
-            <div id="signin"> <img src="images/signin.png"> Sign In 
+            <div id="signin"> 
+                <p><img src="images/signin.png"> Sign In </p>
             </div>
 
-            <div class="topbox"> News</div>
+            <div id="topmenu">
+                <ul>
+                    <li>News</li>
+                    <li>Sport</li>
+                    <li>Weather</li>
+                    <li>iPlayer</li>
+                    <li>TV</li>
+                    <li>Radio</li>
+                    <li>More...</li>
+                </ul>
+            </div>
+
+
 
         </div>
     </div>
